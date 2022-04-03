@@ -5,5 +5,5 @@ search_enabled: true
 color_scheme: dark
 
 remote_theme: benbalter/retlab
-gems:
+plugins:
   - jekyll-remote-theme
