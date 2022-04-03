@@ -8,9 +8,7 @@ jobs:
     executor: ci-executor
     steps:
       - checkout
-      - run:
-          name: install latest bundler
-          command: install bundler
+
       - run:
           name: build dependencies
           command: bundle install
